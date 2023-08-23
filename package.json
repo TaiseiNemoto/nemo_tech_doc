@@ -1,0 +1,31 @@
+{
+  "name": "nemo_tech_doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://defide.visualstudio.com/UX%20Education%20Project/_git/UX_tech_document"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://defide.visualstudio.com/UX%20Education%20Project/_git/UX_tech_document"
+  },
+  "homepage": "https://defide.visualstudio.com/UX%20Education%20Project/_git/UX_tech_document?path=/README.md",
+  "devDependencies": {
+    "sass": "^1.66.1",
+    "vitepress": "^1.0.0-rc.4",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
